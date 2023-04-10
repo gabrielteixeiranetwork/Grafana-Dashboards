@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>5.0</version>
+    <date>2023-04-10T19:53:55Z</date>
+    <groups>
+        <group>
+            <name>Jogos/plataformas</name>
+        </group>
+        <group>
+            <name>Redes Sociais</name>
+        </group>
+        <group>
+            <name>Streaming</name>
+        </group>
+    </groups>
+    <hosts>
+        <host>
+            <host>Band</host>
+            <name>Band</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Streaming</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>200.147.100.53</ip>
+                    <dns>band.com.br</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>CS GO</host>
+            <name>CS GO</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>195.85.59.161</ip>
+                    <dns>csgo.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Dota 2</host>
+            <name>Dota 2</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>172.64.150.199</ip>
+                    <dns>dota2.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Facebook</host>
+            <name>Facebook</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2a03:2880:f148:82:face:b00c:0:25de</ip>
+                    <dns>www.facebook.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Fortinite</host>
+            <name>Fortinite</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>50.28.32.8</ip>
+                    <dns>fortinite.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Free Fire</host>
+            <name>Free Fire</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2001:12ff:0:2::95</ip>
+                    <dns>freefire.com.br</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Globo</host>
+            <name>Globo</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Streaming</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>186.192.90.12</ip>
+                    <dns>globo.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Globo Play</host>
+            <name>Globo Play</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Streaming</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>186.192.90.12</ip>
+                    <dns>globoplay.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Google Plus</host>
+            <name>Google Plus</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2800:3f0:4001:809::200e</ip>
+                    <dns>www.googleplus.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Instagram</host>
+            <name>Instagram</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2a03:2880:f248:e0:face:b00c:0:4420</ip>
+                    <dns>www.instagram.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>League Of Legends</host>
+            <name>League Of Legends</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>54.211.45.5</ip>
+                    <dns>leagueoflegends.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Linkedin</host>
+            <name>Linkedin</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2620:1ec:21::14</ip>
+                    <dns>www.linkedin.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Netflix</host>
+            <name>Netflix</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Streaming</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2600:1f18:631e:2f83:49ee:beaa:2dfd:ae8f</ip>
+                    <dns>netflix.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Pinterest</host>
+            <name>Pinterest</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>199.232.112.84</ip>
+                    <dns>www.pinterest.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Play Station</host>
+            <name>Play Station</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>52.9.151.189</ip>
+                    <dns>playstation.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Pubg</host>
+            <name>Pubg</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>52.84.83.40</ip>
+                    <dns>pubg.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>SBT</host>
+            <name>SBT</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Streaming</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>204.15.120.125</ip>
+                    <dns>sbt.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Snapchat</host>
+            <name>Snapchat</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>34.149.46.130</ip>
+                    <dns>www.snapchat.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Steam</host>
+            <name>Steam</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>5.161.90.154</ip>
+                    <dns>steam.com.br</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Twitter</host>
+            <name>Twitter</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>104.244.42.1</ip>
+                    <dns>www.twitter.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Whatsapp</host>
+            <name>Whatsapp</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Redes Sociais</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2a03:2880:f248:c7:face:b00c:0:167</ip>
+                    <dns>www.whatsapp.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Xbox</host>
+            <name>Xbox</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Jogos/plataformas</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2606:4700:3033::ac43:93a2</ip>
+                    <dns>xbox.com.br</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Youtube</host>
+            <name>Youtube</name>
+            <templates>
+                <template>
+                    <name>RR ICMP Conectividade</name>
+                </template>
+                <template>
+                    <name>RR Traceroute MTR DNS</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Streaming</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <useip>NO</useip>
+                    <ip>2800:3f0:4001:80f::200</ip>
+                    <dns>youtube.com</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+    </hosts>
+</zabbix_export>
